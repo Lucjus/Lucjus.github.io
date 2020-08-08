@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+body {
+    text-align: center;
+    width: 100vw;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    /* max-width: 100%; */
+    display: block;
+}
+
+.about-us__image {
+    width: 100%
+}
+
+section {
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    padding: 2em;
+    font-size: 2rem;
+    color: #23242A
+}
+
+p {
+    line-height: 1.9em;
+}
+
+.main-nav {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #23242A;
+    width: 100%;
+    height: 82%;
+    margin: -4em 0;
+}
+
+.main-nav__item {
+    margin-top: 4.5em;
+
+}
+
+.main-nav__link {
+    color: #DC9168;
+
+}
+
+.main-nav__list {
+    margin: 3em 0;
+}
+
+.offer__item {
+
+    width: 100%;
+    height: 40vh;
+}
+
+
+.main-header {
+    background: url("../head.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.logo {
+    width: 50%;
+}
+
+.main-nav {
+    display: none;
+}
+
+.menu-logo {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.hamburger-icon {
+    width: 9%;
+    fill: white;
+    color: white
+}
+
+.header__title {
+    margin: 2em 0 0.5em 0;
+    padding: 0 1em;
+    color: white;
+}
+
+.header__subtitle {
+    margin: 2em .5em;
+    font-weight: 400;
+}
+
+.btn-primary {
+    color: white;
+    width: 10em;
+    padding: 1em;
+    background-color: #DC9168;
+    border: none;
+    /* font-size: 1rem; */
+}
+
+/* 
+.title-underline {
+    margin: 0 auto;
+    width: 20%;
+    height: 5px;
+    border-radius: 1px;
+    background-color: #DC9168;
+} */
+
+.k {
+    margin: 0 auto;
+    width: 20%;
+    height: 5px;
+    border-radius: 1px;
+    background-color: #DC9168;
+}
+
+.about-us {
+    min-height: 100vh;
+    background-color: #EFEBEB;
+    /* background-color: #DEDEDE; */
+}
+
+
+
+.container {
+    position: relative;
+
+}
+
+.about-us__subtitle {
+    position: absolute;
+    color: white;
+    top: 20%;
+    padding: 0 1em;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.mobile-dots {
+    margin: 2em auto 3em auto;
+    width: 20%;
+
+}
+
+.offer {
+    background-color: #EFEBEB;
+    font-weight: 500;
+}
+
+.offer__item {
+    position: relative;
+    background-image: url('../mobile/g1.png');
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+    margin: 2em 0 2em 0;
+}
+
+.offer__item:nth-of-type(1) {
+    background-image: url('../mobile/g1.png');
+}
+
+.offer__item:nth-of-type(2) {
+    background-image: url('../mobile/g2.png');
+}
+
+.offer__item:nth-of-type(3) {
+    background-image: url('../mobile/g3.png');
+}
+
+.offer-number {
+    font-family: 'Alice', serif;
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    top: -2em;
+    width: 4em;
+    height: 4em;
+
+    background-color: #23242A;
+}
+
+.number {
+    font-size: 3rem;
+
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+
+.offer-icons {
+    width: 3.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.icon-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 80px;
+    background-color: #23242A;
+}
+
+.offer-describtion {
+    font-size: .9rem;
+    line-height: 1.5em;
+    text-align: left;
+    padding: 1em 1em 1em 2em;
+
+}
+
+.price-list-background {
+    font-size: 0.9rem;
+    padding: 0 1em;
+
+}
+
+table {
+    font-size: .9rem;
+    padding: .5em;
+    color: #DC9168;
+}
+
+tr {
+
+    padding: 5em;
+    margin-bottom: 10em;
+}
+
+td {
+    color: #DC9168;
+    padding: 1em;
+    margin-bottom: 10em;
+    line-height: 1.4rem;
+}
+
+.price-list-background p {
+    padding: 1em 0;
+    color: #23242A
+}
+
+.price-list {
+    min-height: 100vh;
+    background-color: #F5F5F5
+}
+
+.price-list__title {
+    color: #23242A;
+}
+
+.form {
+    margin: 1rem auto;
+    max-width: 40rem;
+}
+
+.form .form-row {
+    margin-bottom: 1rem;
+}
+
+.form .form-row:last-child {
+    margin-bottom: 0;
+}
+
+.form input[type=text],
+.form input[type=email],
+.form textarea,
+.form .checkbox-cnt .state {
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.07);
+}
+
+.form input[type=text],
+.form input[type=email],
+.form textarea {
+    padding: 0.8rem;
+    border: 1px solid #DC9168;
+    display: block;
+    width: 100%;
+    color: white;
+    background: transparent;
+}
+
+.form input[type=text]:focus,
+.form input[type=email]:focus,
+.form textarea:focus {
+    border-color: #9DC9F5;
+    box-shadow: inset 0 0 0 1px #9DC9F5, inset 0 1px 5px rgba(0, 0, 0, 0.07);
+    outline: none;
+}
+
+.form textarea {
+    height: 10rem;
+}
+
+.form label {
+    font-weight: bold;
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    background: transparent;
+    color: white;
+
+}
+
+.form .submit-btn {
+    font-family: 'Montserrat', sans-serif;
+    padding: .7rem 3rem;
+    margin-top: .5rem;
+    background: #DC9168;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: 0.3s background-color;
+}
+
+
+
+.form .checkbox-cnt {
+    padding-left: 3rem;
+    position: relative;
+    font-weight: normal;
+    font-size: 0.85rem;
+    line-height: 1.1rem;
+    color: #DC9168;
+    cursor: pointer;
+}
+
+.form .checkbox-cnt .state {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #aaa;
+
+}
+
+.form .checkbox-cnt .state:before {
+    width: 1rem;
+    height: 1rem;
+
+    background: #DC9168;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    content: '';
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+}
+
+.form .checkbox-cnt input:checked~.state:before {
+    animation: checkboxShowAnim 0.5s 1;
+    opacity: 1;
+}
+
+.form .checkbox-cnt input {
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    z-index: 2;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+
+.contact-us {
+
+    padding: 1em 2rem;
+    min-height: 150vh;
+    background-image: url('../mobile/pi.png');
+    background-repeat: no-repeat;
+    /* background-clip: content-box; */
+    background-size: cover;
+}
+
+.display {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.contact-info {
+    color: white;
+
+}
+
+
+.contact-info__title {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contact-info__subtitle {
+    font-weight: 300;
+    font-size: .9rem;
+    margin-bottom: 2.5em;
+    text-align: left;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.con img {
+    margin-right: 1em;
+
+}
+
+footer {
+    position: relative;
+    color: white;
+    min-height: 50vh;
+    width: 100%;
+    background-color: #23242A;
+}
+
+.footer-nav__item {}
+
+.footer-nav__link {
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+.footer-nav__list {
+    padding: 1.5em;
+}
+
+td {
+    color: black;
+}
+
+@media (min-width:411px) {
+    .hero-wrapper {
+        margin-top: 8em;
+    }
+
+    .about-us__subtitle {
+
+        top: 25%;
+        padding: 0 1em;
+        font-size: 1rem;
+
+    }
+}
+
+
+@media (min-width:500px) {
+
+
+    .about-us__subtitle {
+        top: 30%;
+        padding: 0 1em;
+        font-size: 1.2rem;
+
+    }
+
+    .header__subtitle {
+        margin: 2em 3em;
+
+    }
+}
+
+@media (min-width:700px) {
+    .offer-describtion {
+        font-size: 1.2rem;
+    }
+
+    table {
+        font-size: 1.1rem;
+    }
+
+    td {
+        font-size: 1.1rem;
+    }
+
+    .contact-info__subtitle {
+        font-size: 1.2rem;
+
+    }
+}
+
+@media (min-width:700px) {
+    .offer-describtion {
+        font-size: 1.2rem;
+    }
+
+    .header__subtitle {
+        margin: 2em 5em;
+
+    }
+
+    table {
+        font-size: 1.1rem;
+    }
+
+    td {
+        font-size: 1.1rem;
+    }
+
+    .contact-info__subtitle {
+        font-size: 1.2rem;
+
+    }
+}

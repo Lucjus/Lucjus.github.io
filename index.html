@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom-Nov Biuro rachunkowe</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js">
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id='header' class='main-header'>
+        <section class="menu-logo">
+            <img src="img/logo.svg" alt="" class="logo">
+            <img class='hamburger-icon' src="mobile/menu.png" alt="">
+            <nav class="main-nav">
+                <ul class="main-nav__item">
+                    <li class="main-nav__list"><a data-scroll href="#header" class="main-nav__link">Strona główna</a>
+                    </li>
+                    <li class="main-nav__list"><a data-scroll href="#about" class="main-nav__link">O nas</a></li>
+                    <li class="main-nav__list"><a data-scroll href="#offer-list" class="main-nav__link">Oferta</a></li>
+                    <li class="main-nav__list"><a data-scroll href="#price" class="main-nav__link">Cennik</a></li>
+                    <li class="main-nav__list"><a data-scroll href="#contact" class="main-nav__link">Kontakt</a></li>
+                </ul>
+            </nav>
+        </section>
+
+
+
+
+
+        <div class="hero-wrapper">
+            <h1 class='header__title'>Zadbamy o Twoje finanse</h1>
+            <p class="header__subtitle">TOM-NOV zapewnia klientom specjalistyczne wsparcie księgowe i usługi, dzięki
+                czemu
+                mogą skoncentrować się na swojej działalności i życiu osobistym.</p>
+            <a data-scroll href="#offer-list"><button class='btn-primary'>Sprawdź oferte</button></a>
+
+        </div>
+    </header>
+    <section id='about' class="about-us">
+        <h2 class="section__title">O nas</h2>
+        <div class="title-underline"></div>
+        <div class="container">
+            <p class="about-us__subtitle">Jesteśmy w branży od 2014 roku, a nasz
+                zespół licencjonowanych księgowych pracuje pilnie,
+                zgodnie z najwyższymi standardami profesjonalizmu.
+                Tom-Nov zapewnia niezrównane,
+                spersonalizowane usługi księgowe pokaźnej
+                liczbie klientów w miejscowości Lublin i okolice.
+            </p>
+            <img class='about-us__image' src="mobile/image.png" alt="">
+
+        </div>
+
+
+        <img class='mobile-dots' src="mobile/mobile-dots.png" alt="">
+        <div class="container">
+            <img class='about-us__image' src="mobile/image2.png" alt="">
+            <p class="about-us__subtitle">Jako Twoi księgowi, zapewniamy wsparcie przy podejmowaniu decyzji finansowych
+                z uwzględnieniem Twojego interesu
+                i aktualnych przepisów. Jesteśmy przygotowani do tego, aby służyć skutecznym doradztwem w zakresie
+                finansów
+                i optymalizacji podatkowej.
+            </p>
+        </div>
+    </section>
+
+
+
+    <section id=offer-list class="offer">
+        <h2 class="offer__title">Nasza oferta</h2>
+        <div class="title-underline"></div>
+        <div class="offer__item">
+            <div class="icon-container"><img class='offer-icons' src="mobile/d.svg" alt=""></div>
+            <div class="offer-number"> <span class='number'>1</span> </div>
+
+        </div>
+        <p class="offer-describtion">Prowadzenie ksiąg rachunkowych</p>
+        <p class="offer-describtion"> Ewidencjonowanie dokumentów w ewidencji prowadzonej dla potrzeb podatku od towarów
+            i usług</p>
+        <p class="offer-describtion">Kontrola dokumentacji klienta pod względem formalnym i rachunkowym</p>
+        <p class="offer-describtion">Prowadzenie ewidencji środków trwałych</p>
+
+        <div class="offer__item">
+            <div class="icon-container"><img class='offer-icons' src="mobile/s.svg" alt=""></div>
+            <div class="offer-number"><span class='number'>2</span></div>
+
+        </div>
+        <p class="offer-describtion">
+
+            Sporządzanie miesięcznych wydruków zgodnie z wymogami ustawy o rachunkowości
+            oraz ewidencji podatku VAT
+        </p>
+        <p class="offer-describtion">Sporządzanie oraz składanie we właściwym urzędzie skarbowym deklaracji podatku
+            dochodowego i podatku od towarów i usług</p>
+
+        <p class="offer-describtion">Sporządzanie zeznania rocznego dla podatku dochodowego od osób fizycznych</p>
+        <p class="offer-describtion">Sporządzenie rocznego sprawozdania finansowego</p>
+
+
+
+
+        <div class="offer__item">
+            <div class="icon-container"><img class='offer-icons' src="mobile/k.svg" alt=""></div>
+            <div class="offer-number"><span class='number'>3</span></div>
+
+        </div>
+        <p class="offer-describtion">Reprezentacja klienta przed urzędem skarbowym</p>
+        <p class="offer-describtion">Aktualizowanie obowiązkowych danych w urzędzie skarbowym</p>
+        <p class="offer-describtion">Zachowanie tajemnicy służbowej związanej z prowadzeniem ksiąg rachunkowych.</p>
+
+
+
+
+
+
+
+    </section>
+    <section id='price' class="price-list">
+
+        <h2 class="price-list__title">Cennik <span class='k'></span> </h2>
+        <div class="title-underline"></div>
+        <!-- <p>Simple table with header</p> -->
+        <table>
+            <tr>
+                <th>Usługi księgowe</th>
+                <th>Cena</th>
+            </tr>
+            <tr>
+                <td>Opracowanie polityki rachunkowości</td>
+                <td>500 zł</td>
+            </tr>
+            <tr>
+                <td>Opracowanie zakładowego planu kont</td>
+                <td>500 zł</td>
+            </tr>
+            <tr>
+                <td>Sporządzanie raportów kasowych</td>
+                <td>50 zł</td>
+            </tr>
+            <tr>
+                <td>Sporządzanie oraz przesyłanie do US wniosku o interpretację indywidualną</td>
+                <td>150 zł</td>
+            </tr>
+            <tr>
+                <td>Korekta podatków, deklaracji, sprawozdań, ewidencji na zlecenie Zleceniodawcy </td>
+                <td>50,00zł za
+                    każdy
+                    korygowany
+                    okres</td>
+            </tr>
+            <tr>
+                <td>Sporządzenie potwierdzeń sald do dostawców do 20 kontrahentów</td>
+                <td>100 zł</td>
+            </tr>
+            <tr>
+                <td>Opłaty skarbowe do urzędów związane z reprezentacją klienta przed organami
+                    podatkowymi zgodnie z wydatkowanymi środkami</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>Usługi ekspresowe, priorytetowe</td>
+                <td>20% ceny podstawowej</td>
+            </tr>
+            <tr>
+                <td>Sporządzanie wyniku finansowego, RZiSi bilansu na życzenie Zleceniodawcy w trakcie roku</td>
+                <td>300 zł</td>
+            </tr>
+
+        </table>
+        <!-- <p>Opracowanie polityki rachunkowości <span>500,00zł</span> </p>
+        <p>Opracowanie zakładowego planu kont <span>500,00zł</span> </p>
+        <p>Sporządzanie raportów kasowych <span> 50,00zł</span></p>
+        <p>Sporządzanie oraz przesyłanie do US wniosku o interpretację indywidualną <span>150,00zł</span> </p>
+        <p>Korekta podatków, deklaracji, sprawozdań, ewidencji na zlecenie Zleceniodawcy <span>50,00zł</span> za
+            każdy
+            korygowany
+            okres</p>
+        <p>Sporządzenie potwierdzeń sald do dostawców do 20 kontrahentów <span>100,00zł</span></p>
+        <p>Opłaty skarbowe do urzędów związane z reprezentacją klienta przed organami
+            podatkowymi zgodnie z wydatkowanymi środkami</p>
+        <p>Usługi ekspresowe, priorytetowe <span>20% ceny podstawowej</span></p>
+        <p>Sporządzanie wyniku finansowego, RZiSi bilansu na życzenie Zleceniodawcy w trakcie roku
+            <span>300,00zł</span>
+        </p> -->
+
+
+    </section>
+    <section id='contact' class="contact-us">
+
+        <section class="contact-info">
+            <h3 class='contact-info__title'>Skontaktuj się z nami</h3>
+            <p class="contact-info__subtitle">Chcesz nas o coś zapytać? Postaramy się odpowiedzieć najszybciej, jak to
+                tylko możliwe!</p>
+            <div class="con">
+                <img src="../mobile/tel.png" alt="">
+                <p class="phone-number"> 867 045 934</p>
+            </div>
+            <div class="con">
+                <img src="../mobile/email.png" alt="">
+                <p class="email">example@gmail.com</p>
+            </div>
+
+            <div class="con">
+                <img src="../mobile/gps.png" alt="">
+                <p class="adress">Złota 3</p>
+            </div>
+
+        </section>
+
+        <h3 class='contact-info__title'>Napisz do nas</h3>
+        <div class="overlay"></div>
+        <form class="form" id="contactForm" method="post" novalidate action="/send-scripts.php">
+            <div class="form-row">
+                <label for="field-name">Imię</label>
+                <input type="text" name="name" required id="field-name" data-error="Wypełnij to pole"
+                    pattern="[a-zA-ZąĄććęęłŁńŃóÓśŚżŻŹŹ ]+">
+            </div>
+            <div class="form-row">
+                <label for="field-email">Email</label>
+                <input type="email" name="email" required id="field-email" data-error="Wpisz poprawny email"
+                    pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+            </div>
+            <div class="form-row">
+                <label for="field-message">Wiadomość</label>
+                <textarea name="message" required data-error="Musisz wypełnić pole" id="field-message"
+                    pattern=".+"></textarea>
+            </div>
+
+            <div class="form-row">
+                <button type="submit" class="submit-btn">
+                    Wyślij
+                </button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <nav class="footer-nav">
+            <ul class="footer-nav__item">
+                <li class="footer-nav__list"><a data-scroll href="#header" class="footer-nav__link">Strona główna</a>
+                </li>
+                <li class="footer-nav__list"><a data-scroll href="#about" class="footer-nav__link">O nas</a></li>
+                <li class="footer-nav__list"><a data-scroll href="#offer-list" class="footer-nav__link">Oferta</a></li>
+                <li class="footer-nav__list"><a data-scroll href="#price" class="footer-nav__link">Cennik</a></li>
+                <li class="footer-nav__list"><a data-scroll href="#contact" class="footer-nav__link">Kontakt</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="script.js"></script>
+
+</html>
