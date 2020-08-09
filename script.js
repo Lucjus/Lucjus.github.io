@@ -13,8 +13,11 @@ function showMobileMenu() {
 }
 
 function hideMobileMenu() {
-    heroWrapper.classList.toggle('hide')
-    mobileMenu.classList.toggle('display')
+    console.log(window.innerWidth)
+    if (window.innerWidth <= 1024) {
+        heroWrapper.classList.toggle('hide')
+        mobileMenu.classList.toggle('display')
+    }
 }
 
 let scroll = new SmoothScroll('a[href*="#"]');
