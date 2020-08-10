@@ -101,7 +101,7 @@ p {
 
 
 .main-header {
-    background: url("../head.png");
+    background: url("../img/header-background-mobile.png");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -428,7 +428,7 @@ td {
 
     padding: 1em 2rem;
     min-height: 150vh;
-    background-image: url('../mobile/pi.png');
+    background-image: url('../img/mobile-contact-background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -459,13 +459,13 @@ td {
     text-align: left;
 }
 
-.con {
+.icon-info {
     display: flex;
     align-items: center;
     margin-bottom: 2em;
 }
 
-.con img {
+.icon-info img {
     margin-right: 1em;
 
 }
@@ -591,7 +591,7 @@ td {
 
 @media (min-width:1024px) {
     .main-header {
-        background-image: url('../img/bckk.png');
+        background-image: url('../img/header-background-desktop.png');
         /* overflow: hidden; */
     }
 
@@ -746,7 +746,6 @@ td {
 
 
     .offer__item {
-        background-image: url('../mobile/g1.png');
         position: relative;
         background-size: cover;
         background-position: center;
@@ -822,13 +821,12 @@ td {
 
     }
 
-    .r {
+    .offer__item-container {
         display: flex;
         align-items: center;
-        /* border: 1px solid black; */
     }
 
-    .b {
+    .offer-describtions-container {
         order: -1;
         width: 50%;
         margin-left: 1em;
@@ -892,13 +890,13 @@ td {
         text-align: left;
     }
 
-    .con {
+    .icon-info {
         display: flex;
         align-items: center;
         margin-bottom: 2em;
     }
 
-    .con img {
+    .icon-info img {
         margin-right: 1em;
 
     }
