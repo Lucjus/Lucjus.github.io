@@ -1,3 +1,4 @@
+<!-- <?php include 'sendemail.php'; ?> -->
 <!DOCTYPE html>
 <html lang="pl">
 
@@ -212,7 +213,7 @@
             </div>
         </section>
         <section class="contact-form">
-            <h3 class='contact-info__title'>Napisz do nas</h3>
+            <!-- <h3 class='contact-info__title'>Napisz do nas</h3>
             <form class="form" id="contactForm" method="post" novalidate>
                 <div class="form-row">
                     <label for="field-name">Imię</label>
@@ -235,19 +236,19 @@
                         Wyślij
                     </button>
                 </div>
+            </form> -->
+
+            <h4 class="sent-notification"></h4>
+            <?php echo $alert; ?>
+            <form class="contact" action="" method="post">
+                <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <input type="submit" name="submit" class="send-btn" value="Send">
             </form>
 
-            <form action="mail_handler.php" method="post" name="form" class="form-box">
-                <label for="name">Name</label><br>
-                <input type="text" name="name" class="inp" placeholder="Enter Your Name" required><br>
-                <label for="email">Email ID</label><br>
-                <input type="email" name="email" class="inp" placeholder="Enter Your Email" required><br>
-                <label for="phone">Phone</label><br>
-                <input type="tel" name="phone" class="inp" placeholder="Enter Your Phone" required><br>
-                <label for="message">Message</label><br>
-                <textarea name="msg" class="msg-box" placeholder="Enter Your Message Here..." required></textarea><br>
-                <input type="submit" name="submit" value="Send" class="sub-btn">
-            </form>
+
+
         </section>
     </section>
     <footer>

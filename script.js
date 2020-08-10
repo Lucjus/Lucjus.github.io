@@ -20,4 +20,8 @@ function hideMobileMenu() {
     }
 }
 
+if (window.history.replaceState) {
+    window.history.replaceState(null, null, window.location.href);
+}
+
 let scroll = new SmoothScroll('a[href*="#"]');

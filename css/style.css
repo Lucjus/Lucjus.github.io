@@ -204,16 +204,16 @@ p {
 
 .one {
 
-    background-image: url('../img/1.png');
+    background-image: url('../img/1.jpg');
 }
 
 .two {
 
-    background-image: url('../img/2.png');
+    background-image: url('../img/2.jpg');
 }
 
 .three {
-    background-image: url('../img/3.png');
+    background-image: url('../img/3.jpg');
 
 }
 
@@ -591,7 +591,7 @@ td {
 
 @media (min-width:1024px) {
     .main-header {
-        background-image: url('../img/header-background-desktop.png');
+        background-image: url('../img/header-background-desktop.jpg');
         /* overflow: hidden; */
     }
 
@@ -742,9 +742,6 @@ td {
         left: 90%;
     }
 
-
-
-
     .offer__item {
         position: relative;
         background-size: cover;
@@ -752,19 +749,6 @@ td {
         width: 50%;
         height: 50vh;
         margin: 0;
-    }
-
-    .one {
-        background-image: url('../img/1.png');
-    }
-
-    .two {
-        background-image: url('../img/2.png');
-    }
-
-    .three {
-        background-image: url('../img/3.png');
-
     }
 
     .offer-number {
