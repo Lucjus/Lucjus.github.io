@@ -751,7 +751,7 @@ td {
         display: block;
         position: absolute;
         top: -9%;
-        left: 4%;
+        left: -4%;
         z-index: 1;
         height: 50%;
     }
